@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    /* text-decoration: none; */
+}
+h1{
+    font-size: 3.5rem;
+
+    color:honeydew;
+    text-shadow: 2px 2px 5px rgb(242, 66, 255);
+    margin-bottom: 2rem;
+}
+main{
+    margin-top: 2em;
+    text-align: center;
+    /* width: 100vw; */
+}
+/* .game-box{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+.game{
+    /* height: 24em;
+    width: 24em; */
+    /* height: 60vh;
+    width: 60vw;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2vmin; */
+    /* display: grid; */
+    display: grid;
+    grid-template-columns: auto auto auto;
+    place-content: center;
+    gap: 0.8rem;
+}
+.box{
+    /* height: 18vh;
+    width: 18vw; */
+    height: 1.65em;
+    width: 1.65em;
+    border: none;
+    border-radius: 0.3em;
+    font-size: 3.8em;
+    box-shadow: 0 0 12px rgb(0,0,0,0.4);
+    text-shadow: 5px 5px 10px black;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.858);
+    color: black;
+}
+.restartbtn{
+    margin: 2rem;
+    font-size: 1.5rem;
+    padding: 1rem;
+    font-weight: bold;
+    border-radius: 0.8rem;
+    box-shadow: 0 0 12px rgb(0,0,0,0.4);
+    border: none;
+    cursor: pointer;
+    margin: 3.5rem;
+
+}
+.message{
+    font-size: 2.8rem;
+    font-weight: bold;
+    color: rgb(29, 45, 190);
+    text-shadow: 3px 3px 10px white;
+}
+.hide{
+    display: none;
+}
+.mehul a{
+    text-decoration: none;
+    color: rgb(10, 121, 255);
+    font-weight: bold;
+}
+.mehul{
+    font-size: 1.5rem;
+    /* position: fixed; */
+    color: wheat;
+    /* bottom: 0;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 100%; */
+    margin: 5rem;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media screen and (min-width:440px){
+    h1{
+        font-size: 5rem;
+    }
+    .message{
+        font-size: 5rem;
+    }
+}
