@@ -3,8 +3,8 @@
     padding: 0;
 }
 body{
-    background: rgb(131,58,180);
-    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    background-image: url('bgimage.jpg');
+    background-size:cover;
     /* text-decoration: none; */
 }
 h1{
@@ -53,7 +53,6 @@ main{
     text-shadow: 5px 5px 10px black;
     cursor: pointer;
     background-color: rgba(255, 255, 255, 0.858);
-    color: black;
 }
 .restartbtn{
     margin: 2rem;
